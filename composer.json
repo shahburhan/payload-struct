@@ -1,6 +1,6 @@
 {
     "name": "shahburhan/payload-struct",
-    "description": "A simple utility to create payloads in an easy object oriented construct and transform it into different data structures viz. array, objects, string(json).",
+    "description": "A simple utility to create payloads in an easy object oriented construct",
     "type": "library",
     "license": "MIT",
     "authors": [{

@@ -43,4 +43,13 @@ class PayloadStruct
     {
         return (object) $this->payload;
     }
+    /**
+     * Reset Payload data
+     * @return self
+     */
+    public function flush()
+    {
+        $this->payload = [];
+        return $this;
+    }
 }
