@@ -71,3 +71,14 @@ You can also access individual items with getter notation or direct property acc
 $payload->getName(); //Outputs Jane Doe
 $payload->name; //Outputs Jane Doe
 ``` 
+---
+Reset payload data:
+```
+$payload->flush();
+
+```
+You can chain on to add new data items:
+```
+$payload->flush()
+  ->setNewName('John Doe');
+```
